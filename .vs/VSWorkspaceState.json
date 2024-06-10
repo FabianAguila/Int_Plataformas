@@ -3,8 +3,13 @@
     "",
     "\\API-Csharp",
     "\\API-Csharp\\InversionesLtda.API",
-    "\\API-Csharp\\InversionesLtda.API\\Controllers"
+    "\\API-Csharp\\InversionesLtda.API\\Controllers",
+    "\\API-Csharp\\InversionesLtda.API\\Models",
+    "\\ApiLogistica",
+    "\\ApiLogistica\\ApiLogistica",
+    "\\ApiLogistica\\ApiLogistica\\Controllers",
+    "\\ApiLogistica\\ApiLogistica\\Models"
   ],
-  "SelectedNode": "\\API-Csharp\\InversionesLtda.sln",
+  "SelectedNode": "\\ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
   "PreviewInSolutionExplorer": false
 }

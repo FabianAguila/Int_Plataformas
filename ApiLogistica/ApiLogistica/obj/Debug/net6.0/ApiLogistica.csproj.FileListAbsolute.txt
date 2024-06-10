@@ -1,0 +1,15 @@
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.csproj.AssemblyReference.cache
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.AssemblyInfo.cs
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.csproj.AssemblyReference.cache
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.AssemblyInfoInputs.cache
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.AssemblyInfo.cs
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.csproj.CoreCompileInputs.cache
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.sourcelink.json
