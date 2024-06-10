@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "InversionesLtda.API\\Models\\Cliente.cs",
               "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
               "RelativeToolTip": "InversionesLtda.API\\Models\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T06:01:48.632Z",
               "EditorCaption": ""
@@ -55,8 +59,7 @@
               "RelativeToolTip": "InversionesLtda.API\\Controllers\\ClienteController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T05:58:33.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T05:58:33.464Z"
             },
             {
               "$type": "Document",
@@ -68,8 +71,7 @@
               "RelativeToolTip": "InversionesLtda.API\\Models\\Producto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T05:51:56.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T05:51:56.436Z"
             },
             {
               "$type": "Document",
@@ -81,8 +83,7 @@
               "RelativeToolTip": "InversionesLtda.API\\Controllers\\ProductoController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAowCgAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T05:49:26.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T05:49:26.435Z"
             },
             {
               "$type": "Document",
@@ -94,12 +95,7 @@
               "RelativeToolTip": "InversionesLtda.API\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-08T05:41:40.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2024-06-08T05:41:40.269Z"
             }
           ]
         }

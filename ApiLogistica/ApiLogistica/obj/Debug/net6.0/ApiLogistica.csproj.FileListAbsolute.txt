@@ -5,6 +5,42 @@ C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integraci�
 C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.csproj.CoreCompileInputs.cache
 C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\appsettings.json
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.exe
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.deps.json
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.runtimeconfig.json
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.dll
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.pdb
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets\msbuild.ApiLogistica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiLogistica.props
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiLogistica.props
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiLogistica.props
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\scopedcss\bundle\ApiLogistica.styles.css
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogis.E9093C87.Up2Date
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.dll
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\refint\ApiLogistica.dll
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.pdb
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.genruntimeconfig.cache
+C:\Users\migue\Desktop\DUOC_UC_Ingenieria en_Informatica\5to_Semestre\Integración de plataformas\API para logistica\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ref\ApiLogistica.dll
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\appsettings.json
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.exe
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.deps.json
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.runtimeconfig.json
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.dll
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\ApiLogistica.pdb
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.csproj.AssemblyReference.cache
 C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.AssemblyInfoInputs.cache
@@ -13,3 +49,17 @@ C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogist
 C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.sourcelink.json
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets\msbuild.ApiLogistica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiLogistica.props
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiLogistica.props
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiLogistica.props
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\scopedcss\bundle\ApiLogistica.styles.css
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogis.E9093C87.Up2Date
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.dll
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\refint\ApiLogistica.dll
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.pdb
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ApiLogistica.genruntimeconfig.cache
+C:\Users\fabia\OneDrive\Escritorio\2024_ASY5131_IntegracionPlataformas\ApiLogistica\ApiLogistica\obj\Debug\net6.0\ref\ApiLogistica.dll

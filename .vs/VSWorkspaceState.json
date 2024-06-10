@@ -10,6 +10,6 @@
     "\\ApiLogistica\\ApiLogistica\\Controllers",
     "\\ApiLogistica\\ApiLogistica\\Models"
   ],
-  "SelectedNode": "\\ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
+  "SelectedNode": "\\ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
   "PreviewInSolutionExplorer": false
 }

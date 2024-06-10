@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\InventarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +19,36 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Controllers\\PedidosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Csharp\\InversionesLtda.API\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\PedidoDetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Models\\PedidoDetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Models\\Inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Entregas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Models\\Entregas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Models\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Csharp\\InversionesLtda.API\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,18 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\PedidoDetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Models\\PedidoDetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,46 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:44:08.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "API-Csharp\\InversionesLtda.API\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Producto.cs",
-              "RelativeToolTip": "API-Csharp\\InversionesLtda.API\\Models\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Producto.cs",
+              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Models\\Producto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:44:06.285Z",
+              "WhenOpened": "2024-06-10T03:26:08.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T01:15:15.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Controllers\\ProductosController.cs",
@@ -114,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Controllers\\PedidosController.cs",
@@ -127,59 +117,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InventarioController.cs",
               "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\InventarioController.cs",
               "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Controllers\\InventarioController.cs",
               "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\InventarioController.cs",
               "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Controllers\\InventarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T22:32:23.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
-              "RelativeToolTip": "API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "EntregasController.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
+              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
+              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:44:04.242Z",
+              "WhenOpened": "2024-06-09T22:32:11.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:44:08.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:43:58.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Pedidos.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs",
-              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs",
-              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs",
-              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:39:53.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "PedidoDetalle.cs",
               "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\PedidoDetalle.cs",
               "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Models\\PedidoDetalle.cs",
@@ -192,16 +169,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EntregasController.cs",
-              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
-              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
-              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
-              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAkAAAA",
+              "DocumentIndex": 8,
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Inventario.cs",
+              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Models\\Inventario.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Inventario.cs",
+              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Models\\Inventario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:32:11.292Z",
+              "WhenOpened": "2024-06-10T03:26:02.132Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Entregas.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Entregas.cs",
+              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Models\\Entregas.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Entregas.cs",
+              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Models\\Entregas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:26:00.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Cliente.cs",
+              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:25:58.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "API-Csharp\\InversionesLtda.API\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T01:15:15.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pedidos.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs",
+              "RelativeDocumentMoniker": "ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs",
+              "RelativeToolTip": "ApiLogistica\\ApiLogistica\\Models\\Pedidos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:39:53.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "API-Csharp\\InversionesLtda.API\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Producto.cs",
+              "RelativeToolTip": "API-Csharp\\InversionesLtda.API\\Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:44:06.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
+              "RelativeToolTip": "API-Csharp\\InversionesLtda.API\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:44:04.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "API-Csharp\\InversionesLtda.API\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:43:58.828Z"
             }
           ]
         }
