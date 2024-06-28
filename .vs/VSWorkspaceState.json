@@ -2,14 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\API-Csharp",
-    "\\API-Csharp\\InversionesLtda.API",
     "\\API-Csharp\\InversionesLtda.API\\Controllers",
     "\\API-Csharp\\InversionesLtda.API\\Models",
     "\\ApiLogistica",
     "\\ApiLogistica\\ApiLogistica",
-    "\\ApiLogistica\\ApiLogistica\\Controllers",
-    "\\ApiLogistica\\ApiLogistica\\Models"
+    "\\ApiLogistica\\ApiLogistica\\Controllers"
   ],
-  "SelectedNode": "\\ApiLogistica\\ApiLogistica\\Controllers\\EntregasController.cs",
+  "SelectedNode": "\\ApiLogistica\\ApiLogistica\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

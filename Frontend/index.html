@@ -76,12 +76,46 @@
     </form>
 
     <script type="text/javascript">
-       fetch("http://localhost:5000/api/cliente","http://localhost:5000/api/producto")
+       fetch("http://localhost:5010/api/Cliente", {
+        mode:"cors",
+        headers:{"Content-Type": "application/json"}
+       })
+       .then(response => response.json())
+    .then(data => {
+        alert("Su compra se efectuo")
+    console.log(data);
+  })
+/*
+  fetch("http://localhost:5010/api/Cliente","http://localhost:5010/api/producto","http://localhost:5010/api/Entregas")
        .then(response => response.json())
   .then(data => {
     print(data)
     console.log(data);
   })
+*/
+
+  async function cargarClientes() {
+            const cboCliente = document.getElementById('cboCliente');
+            try {
+                const response = await fetch("http://localhost:5010/api/Cliente", { 
+                    headers: { "Content-Type": "application/json" },
+                    mode: 'cors'
+                });
+                const listaClientes = await response.json();
+                let clienteOptions = '';
+                listaClientes.forEach(cliente => {
+                    clienteOptions += `<option value="${cliente.id}">${cliente.nombre}</option>`;
+                });
+                cboCliente.innerHTML = clienteOptions;
+            } catch (error) {
+                console.error('Error fetching clients:', error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            cargarClientes();
+        }
+        );
     </script>
 </body>
 </html>

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApiLogistica.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Productos")]
     [ApiController]
     public class ProductoController : ControllerBase
     {
