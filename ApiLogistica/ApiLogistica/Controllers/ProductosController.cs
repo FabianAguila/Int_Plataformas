@@ -1,5 +1,6 @@
 ﻿using ApiLogistica.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiLogistica.Controllers
 {
@@ -7,84 +8,76 @@ namespace ApiLogistica.Controllers
     [ApiController]
     public class ProductoController : ControllerBase
     {
-        private static List<Producto> lista = new List<Producto>
-    {
-        new Producto { Id = 1, Nombre = "Producto A", Precio = 100, Stock = 50 },
-        new Producto { Id = 2, Nombre = "Producto B", Precio = 200, Stock = 30 }
-    };
+        private readonly ApplicationDbContext _context;
 
-        // GET api/producto
-        [HttpGet]
-        public IEnumerable<Producto> Get()
+        public ProductoController(ApplicationDbContext context)
         {
-            return lista;
+            _context = context;
         }
 
-        // GET api/producto/5
-        [HttpGet("{id}")]
-        public ActionResult<Producto> Get(int id)
+        // GET api/productos
+        [HttpGet]
+        public async Task<IActionResult> Get()
         {
-            var producto = lista.FirstOrDefault(x => x.Id == id);
+            try
+            {
+                var productos = await _context.Productos.ToListAsync();
+                return Ok(productos);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        // GET api/productos/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
             if (producto == null)
             {
                 return NotFound();
             }
-            return producto;
+            return Ok(producto);
         }
 
-        // POST api/producto
+        // POST api/productos
         [HttpPost]
-        public IActionResult Post([FromBody] Producto value)
+        public async Task<IActionResult> Post([FromBody] Producto producto)
         {
-            value.Id = lista.Max(p => p.Id) + 1; // Generar nuevo ID incrementado
-            lista.Add(value);
-            return Ok(new
-            {
-                success = true,
-                message = "Producto registrado",
-                result = value
-            });
+            _context.Productos.Add(producto);
+            await _context.SaveChangesAsync();
+            return Ok(producto);
         }
 
-        // PUT api/producto/5
+        // PUT api/productos/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] Producto value)
+        public async Task<IActionResult> Put(int id, [FromBody] Producto producto)
         {
-            var selection = lista.FirstOrDefault(x => x.Id == id);
-            if (selection == null)
+            if (id != producto.Id)
             {
-                return NotFound();
+                return BadRequest();
             }
 
-            var index = lista.IndexOf(selection);
-            lista[index] = value;
-
-            return Ok(new
-            {
-                success = true,
-                message = "Producto actualizado",
-                result = value
-            });
+            _context.Entry(producto).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return Ok(producto);
         }
 
-        // DELETE api/producto/5
+        // DELETE api/productos/5
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var selection = lista.FirstOrDefault(x => x.Id == id);
-            if (selection == null)
+            var producto = await _context.Productos.FindAsync(id);
+            if (producto == null)
             {
                 return NotFound();
             }
 
-            lista.Remove(selection);
-
-            return Ok(new
-            {
-                success = true,
-                message = "Producto eliminado",
-                result = id
-            });
+            _context.Productos.Remove(producto);
+            await _context.SaveChangesAsync();
+            return Ok(producto);
         }
     }
-} 
+}

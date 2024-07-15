@@ -58,46 +58,23 @@
 </head>
 <body>
     <form>
-        <label>Cliente</label>
+        <label for="cboCliente">Cliente</label>
         <select name="cboCliente" id="cboCliente"></select>
         <br><br>
-        <label>Producto</label>
-        <select name="cboProducto" id="cboProducto">
-            <option value="1">Zanahoria</option>
-            <option value="1">Melon</option>
-            <option value="1">Sandia</option>
-            <option value="1">Arroz</option>
-        </select>
+        <label for="cboProducto">Producto</label>
+        <select name="cboProducto" id="cboProducto"></select>
         <br><br>
-        <label>Cantidad</label>
-        <input type="number" name="txtCantidad" id="txtCantidad">
+        <label for="txtCantidad">Cantidad</label>
+        <input type="number" name="txtCantidad" id="txtCantidad" min="1">
         <br><br>
-        <button class="btn" id="btnEnviar">Enviar</button>
+        <button class="btn" id="btnEnviar" type="button">Enviar</button>
     </form>
 
     <script type="text/javascript">
-       fetch("http://localhost:5010/api/Cliente", {
-        mode:"cors",
-        headers:{"Content-Type": "application/json"}
-       })
-       .then(response => response.json())
-    .then(data => {
-        alert("Su compra se efectuo")
-    console.log(data);
-  })
-/*
-  fetch("http://localhost:5010/api/Cliente","http://localhost:5010/api/producto","http://localhost:5010/api/Entregas")
-       .then(response => response.json())
-  .then(data => {
-    print(data)
-    console.log(data);
-  })
-*/
-
   async function cargarClientes() {
             const cboCliente = document.getElementById('cboCliente');
             try {
-                const response = await fetch("http://localhost:5010/api/Cliente", { 
+                const response = await fetch("http://localhost:5010/api/Cliente/ObtenerCli", { 
                     headers: { "Content-Type": "application/json" },
                     mode: 'cors'
                 });
@@ -107,15 +84,65 @@
                     clienteOptions += `<option value="${cliente.id}">${cliente.nombre}</option>`;
                 });
                 cboCliente.innerHTML = clienteOptions;
-            } catch (error) {
+            } catch (error) { 
                 console.error('Error fetching clients:', error);
             }
+        };
+        
+        async function cargarProductos() {
+            const cboProducto = document.getElementById('cboProducto');
+            try {
+                const response = await fetch("http://localhost:5010/api/Productos", { 
+                    headers: { "Content-Type": "application/json" },
+                    mode: 'cors'
+                });
+                const listaProductos = await response.json();
+                let productosOptions = '';
+                listaProductos.forEach(producto => {
+                    productosOptions += `<option value="${producto.id}">${producto.nombre}">${producto.cantidad} data-precio = ${producto.totalCosto}</option>`;
+                });
+                cboProducto.innerHTML = productosOptions;
+            } catch (error) {
+                console.error('Error fetching products:', error);
+            }
+        }
+        async function enviarCompra(){
+            const cboCliente = document.getElementById('cboCliente');
+            const cboProducto = document.getElementById('cboProducto');
+            const txtCantidad = document.getElementById('txtCantidad');
+            const productoSeleccionado = cboProducto.options[cboProducto.selectedIndex];
+            const precio = parseFloat(productoSeleccionado.getAtribute('data-precio'));
+            const cantidad = parseInt(txtCantidad.value);
+            const totalCosto = precio * cantidad;
+            const compra = {
+                clienteId: parseInt(cboCliente.value),
+                productoId: parseInt(cboProducto.value),
+                cantidad: cantidad,
+                totalCosto: totalCosto
+            };
+            try{
+                const response = await fetch('https://apilogistica1.azurewebsites.net/api/Compras',{
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(compra)
+                });
+                
+                if (response.ok){
+                    const data = await response.json();
+                    alert(`Compra realizada con exito, el costo total es de: ${data.totalCosto}`);
+                } else {
+                    alert('error al realizar la compra');
+                }
+                
+            } catch (error) {
+                console.error('error:', error);
+                alert('Error al realizar la compra');
+                }
         }
 
-        document.addEventListener('DOMContentLoaded', () => {
-            cargarClientes();
-        }
-        );
+        document.getElementById('btnEnviar').addEventListener('click', enviarCompra)
     </script>
 </body>
 </html>

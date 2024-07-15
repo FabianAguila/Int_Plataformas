@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InversionesLtda.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a0cf973d173b966ee0f5cf25367e14c2d29de0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4a830a85a664c5807a7a0cdd0b29ecb36d08e35")]
 [assembly: System.Reflection.AssemblyProductAttribute("InversionesLtda.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InversionesLtda.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

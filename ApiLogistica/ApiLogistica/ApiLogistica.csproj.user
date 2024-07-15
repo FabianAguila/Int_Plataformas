@@ -4,6 +4,7 @@
     <Controller_SelectedScaffolderID>MvcControllerWithActionsScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/MVC/Controller</Controller_SelectedScaffolderCategoryPath>
     <ActiveDebugProfile>ApiLogistica</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\fabia\OneDrive\Escritorio\Int_Plataformas\ApiLogistica\ApiLogistica\Properties\PublishProfiles\ApiLogistica1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

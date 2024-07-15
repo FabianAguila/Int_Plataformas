@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\ApiLogistica.csproj": {}
+    "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\ApiLogistica\\ApiLogistica\\ApiLogistica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\ApiLogistica.csproj": {
+    "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\ApiLogistica\\ApiLogistica\\ApiLogistica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\ApiLogistica.csproj",
+        "projectUniqueName": "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\ApiLogistica\\ApiLogistica\\ApiLogistica.csproj",
         "projectName": "ApiLogistica",
-        "projectPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\ApiLogistica.csproj",
+        "projectPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\ApiLogistica\\ApiLogistica\\ApiLogistica.csproj",
         "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\ApiLogistica\\ApiLogistica\\obj\\",
+        "outputPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\ApiLogistica\\ApiLogistica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,6 +58,20 @@
               "target": "Package",
               "version": "[5.2.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -82,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

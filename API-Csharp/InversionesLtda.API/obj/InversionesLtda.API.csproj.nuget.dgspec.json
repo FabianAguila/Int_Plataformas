@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\InversionesLtda.API.csproj": {}
+    "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\API-Csharp\\InversionesLtda.API\\InversionesLtda.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\InversionesLtda.API.csproj": {
+    "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\API-Csharp\\InversionesLtda.API\\InversionesLtda.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\InversionesLtda.API.csproj",
+        "projectUniqueName": "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\API-Csharp\\InversionesLtda.API\\InversionesLtda.API.csproj",
         "projectName": "InversionesLtda.API",
-        "projectPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\InversionesLtda.API.csproj",
+        "projectPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\API-Csharp\\InversionesLtda.API\\InversionesLtda.API.csproj",
         "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\2024_ASY5131_IntegracionPlataformas\\API-Csharp\\InversionesLtda.API\\obj\\",
+        "outputPath": "C:\\Users\\fabia\\OneDrive\\Escritorio\\Int_Plataformas\\API-Csharp\\InversionesLtda.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

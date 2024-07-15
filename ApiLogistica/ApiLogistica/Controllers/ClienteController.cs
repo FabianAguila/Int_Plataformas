@@ -1,107 +1,78 @@
 ﻿using ApiLogistica.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+
 
 namespace ApiLogistica.Controllers
 {
-
     [Route("api/Cliente")]
     [ApiController]
-    public class ClientesController : ControllerBase
+    public class ClienteController : ControllerBase
     {
-        private static List<Cliente> lista = new List<Cliente>
-    {
-        new Cliente { Id = 1, Nombre = "Cosme Fulanito", Direccion = "El salto 300", Telefono = "988997755", Email = "cosme@fulanito.com" },
-        new Cliente { Id = 2, Nombre = "Fulano Aldo", Direccion = "Saltando 600", Telefono = "91122334455", Email = "aldo@fullano.com" }
-    };
+        private readonly ApplicationDbContext _context;
 
-        // GET api/clientes
-        [HttpGet]
-        public IEnumerable<Cliente> Get()
+        public ClienteController(ApplicationDbContext context)
         {
-            return lista;
+            _context = context;
         }
 
-        // GET api/clientes/5
-        [HttpGet("{id}")]
-        public ActionResult<Cliente> Get(string id)
+        // GET api/cliente
+        [HttpGet("ObtenerCli")]
+        public async Task<IActionResult> Get()
         {
-            // Convertir el parámetro id a int
-            if (!int.TryParse(id, out int clienteId))
-            {
-                // Manejar el caso en el que el id no sea un número válido
-                return BadRequest("ID de cliente no válido");
-            }
+            var clientes = await _context.Clientes.ToListAsync();
+            return Ok(clientes);
+        }
 
-            // Buscar el cliente por su ID convertido a int
-            var cliente = lista.FirstOrDefault(x => x.Id == clienteId);
+        // GET api/cliente/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            var cliente = await _context.Clientes.FindAsync(id);
             if (cliente == null)
             {
                 return NotFound();
             }
-            return cliente;
+            return Ok(cliente);
         }
 
-        // POST api/clientes
+        // POST api/cliente
         [HttpPost]
-        public IActionResult Post([FromBody] Cliente value)
+        public async Task<IActionResult> Post([FromBody] Cliente cliente)
         {
-            lista.Add(value);
-            return Ok(new
-            {
-                success = true,
-                message = "Cliente registrado",
-                result = value
-            });
+            _context.Clientes.Add(cliente);
+            await _context.SaveChangesAsync();
+            return Ok(cliente);
         }
 
+        // PUT api/cliente/5
         [HttpPut("{id}")]
-        public IActionResult Put(string id, [FromBody] Cliente value)
+        public async Task<IActionResult> Put(int id, [FromBody] Cliente cliente)
         {
-            if (!int.TryParse(id, out int clienteId))
+            if (id != cliente.Id)
             {
-                return BadRequest("ID de cliente no válido");
-            }
-            var selection = lista.FirstOrDefault(x => x.Id == clienteId);
-            if (selection == null)
-            {
-                return NotFound();
+                return BadRequest();
             }
 
-            var index = lista.IndexOf(selection);
-            lista[index] = value;
-
-            return Ok(new
-            {
-                success = true,
-                message = "Cliente actualizado",
-                result = value
-            });
+            _context.Entry(cliente).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return Ok(cliente);
         }
 
+        // DELETE api/cliente/5
         [HttpDelete("{id}")]
-        public IActionResult Delete(string id)
+        public async Task<IActionResult> Delete(int id)
         {
-            if (!int.TryParse(id, out int clienteId))
-            {
-                return BadRequest("ID de cliente no válido");
-            }
-            var selection = lista.FirstOrDefault(x => x.Id == clienteId);
-            if (selection == null)
+            var cliente = await _context.Clientes.FindAsync(id);
+            if (cliente == null)
             {
                 return NotFound();
             }
-            lista.Remove(selection);
 
-            return Ok(new
-            {
-                success = true,
-                message = "Cliente eliminado",
-                result = clienteId
-            });
+            _context.Clientes.Remove(cliente);
+            await _context.SaveChangesAsync();
+            return Ok(cliente);
         }
     }
-    }
-
-
-
-
+}

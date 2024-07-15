@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ApiLogistica",
+    "\\ApiLogistica\\Controllers",
+    "\\ApiLogistica\\Models"
   ],
   "SelectedNode": "\\ApiLogistica.sln",
   "PreviewInSolutionExplorer": false
