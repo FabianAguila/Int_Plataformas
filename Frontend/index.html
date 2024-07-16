@@ -4,54 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+         
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f0f4f8, #e0e7ef);
+            color: #333;
             margin: 0;
             padding: 0;
         }
 
         form {
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            max-width: 400px;
-            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 500px;
+            margin: 40px auto;
+            border: 1px solid #dcdcdc;
+        }
+
+        form h1 {
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: 700;
+            color: #007bff;
+            text-align: center;
         }
 
         label {
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #555;
         }
 
         input[type="number"],
         select {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #007bff;
+            border-radius: 8px;
             box-sizing: border-box;
+            font-size: 16px;
+            color: #333;
+        }
+
+        input[readonly] {
+            background-color: #f9f9f9;
         }
 
         button {
-            background-color: #4caf50;
+            background: linear-gradient(45deg, #28a745, #218838);
             color: #fff;
-            padding: 10px 20px;
+            padding: 14px 0;
             border: none;
-            border-radius: 4px;
+            border-radius: 8px;
             cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s ease, transform 0.3s ease;
         }
 
         button:hover {
-            background-color: #45a049;
+            background: linear-gradient(45deg, #218838, #1e7e34);
+            transform: scale(1.05);
         }
 
-        .btn {
-            display: block;
-            width: 100%;
+        .boleta-container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            margin: 40px auto;
+            max-width: 600px;
+            border: 1px solid #dcdcdc;
+        }
+
+        .boleta-container h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .boleta-container p {
+            font-size: 16px;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        .boleta-container strong {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .boleta-container span {
+            color: #555;
+            font-weight: 400;
+        }
+
+        input[type="number"]:focus,
+        select:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(45deg, #6c757d, #5a6268);
+            color: #fff;
+            padding: 12px 0;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background: linear-gradient(45deg, #5a6268, #4e555b);
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            form, .boleta-container {
+                padding: 20px;
+                margin: 20px;
+                max-width: 100%;
+            }
+
+            form h1 {
+                font-size: 22px;
+            }
+
+            button, .btn-secondary {
+                font-size: 16px;
+                padding: 12px 0;
+            }
         }
     </style>
 </head>
@@ -74,6 +177,17 @@
         <br><br>
         <button class="btn" id="btnEnviar" type="button">Enviar</button>
     </form>
+    <div class="boletacontainer" id="boletaContainer">
+        <h2>Boleta de Compra</h2>
+        <p><strong>Cliente:</strong> <span id="boletaClienteNombre"></span></p>
+        <p><strong>Dirección:</strong> <span id="boletaClienteDireccion"></span></p>
+        <p><strong>Teléfono:</strong> <span id="boletaClienteTelefono"></span></p>
+        <p><strong>Email:</strong> <span id="boletaClienteEmail"></span></p>
+        <p><strong>Producto:</strong> <span id="boletaProductoNombre"></span></p>
+        <p><strong>Precio Unitario:</strong> $<span id="boletaProductoPrecio"></span></p>
+        <p><strong>Cantidad:</strong> <span id="boletaCantidad"></span></p>
+        <p><strong>Total Costo:</strong> $<span id="boletaTotalCosto"></span></p>
+    </div>
     <script type="text/javascript">
         async function cargarClientes() {
             const cboCliente = document.getElementById('cboCliente');

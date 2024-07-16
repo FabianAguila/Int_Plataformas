@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-
-
 namespace ApiLogistica.Controllers
 {
     [Route("api/Cliente")]

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ApiLogistica.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace ApiLogistica.Controllers
 {
@@ -9,10 +10,12 @@ namespace ApiLogistica.Controllers
     public class CompraController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly ILogger<CompraController> _logger;
 
-        public CompraController(ApplicationDbContext context)
+        public CompraController(ApplicationDbContext context, ILogger<CompraController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -39,43 +42,53 @@ namespace ApiLogistica.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Compra compra)
         {
-            if (!ModelState.IsValid)
+            using var transaction = await _context.Database.BeginTransactionAsync();
+
+            try
             {
-                return BadRequest(ModelState);
-            }
-            var clienteExiste = await _context.Clientes.FindAsync(compra.Cliente.Id);
-            if (clienteExiste == null)
-            {
-                _context.Clientes.Add(compra.Cliente);
+                _logger.LogInformation("Iniciando la creación de una nueva compra...");
+
+                // Verificar si el cliente ya está siendo rastreado por el contexto
+                var clienteExistente = await _context.Clientes.AsNoTracking().FirstOrDefaultAsync(c => c.Id == compra.ClienteId);
+                if (clienteExistente == null)
+                {
+                    _context.Clientes.Add(compra.Cliente);
+                    await _context.SaveChangesAsync();
+                    compra.ClienteId = compra.Cliente.Id;
+                }
+                else
+                {
+                    compra.ClienteId = clienteExistente.Id;
+                    _context.Entry(clienteExistente).State = EntityState.Detached;
+                    _context.Attach(compra.Cliente);
+                }
+                var productoExistente = await _context.Productos.AsNoTracking().FirstOrDefaultAsync(p => p.Id == compra.ProductoId);
+                if (productoExistente == null)
+                {
+                    _context.Productos.Add(compra.Producto);
+                    await _context.SaveChangesAsync();
+                    compra.ProductoId = compra.Producto.Id;
+                }
+                else
+                {
+                    compra.ProductoId = productoExistente.Id;
+                    _context.Entry(productoExistente).State = EntityState.Detached;
+                    _context.Attach(compra.Producto);
+                }
+                _context.Compras.Add(compra);
                 await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                _logger.LogInformation("Compra creada con éxito.");
+                return Ok(compra);
             }
-            else
+            catch (Exception ex)
             {
-                compra.ClienteId = clienteExiste.Id;
-                compra.NombreCliente = clienteExiste.Nombre;
-                compra.DireccionCliente = clienteExiste.Direccion;
-                compra.TelefonoCliente = clienteExiste.Telefono;
-                compra.EmailCliente = clienteExiste.Email;
+                await transaction.RollbackAsync();
+                _logger.LogError($"Error al crear la compra: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
-            var productoExiste = await _context.Productos.FindAsync(compra.Producto.Id);
-            if (productoExiste == null)
-            {
-                _context.Productos.Add(compra.Producto);
-                await _context.SaveChangesAsync();
-            }
-            else
-            {
-                compra.ProductoId = productoExiste.Id;
-                compra.NombreProducto = productoExiste.Nombre;
-                compra.PrecioProducto = productoExiste.Precio;
-                compra.StockProducto = productoExiste.Stock;
-                compra.CantidadProducto = productoExiste.Cantidad;
-            }
-            _context.Compras.Add(compra);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetById), new { productoId = compra.ProductoId, clienteId = compra.ClienteId }, compra);
-        
-    }
+        }
 
         [HttpPut("{productoId}/{clienteId}")]
         public async Task<IActionResult> Put(int productoId, int clienteId, [FromBody] Compra compra)
@@ -120,7 +133,6 @@ namespace ApiLogistica.Controllers
             await _context.SaveChangesAsync();
 
             return Ok(compraExiste);
-
         }
 
         [HttpDelete("{productoId}/{clienteId}")]

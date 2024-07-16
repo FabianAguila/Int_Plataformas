@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiLogistica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad9059885f0dafbd2465a8dfa09bf7f25794729")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8aa89a048a0bbb5cbe9f74fd4e4718522c7b4b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiLogistica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiLogistica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
